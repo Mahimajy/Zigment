@@ -17,23 +17,6 @@ A React-based dynamic form generator that allows you to create custom forms usin
 - Error handling and validation messages
 - Mobile-friendly interface with toggle view
 
-## Setup Instructions
-
-1. Clone the repository:
-```bash
-git clone https://github.com/Atmalviya/dynamic-form-generator.git
-```
-
-2. Install dependencies:
-```bash
-cd dynamic-form-generator
-npm install --legacy-peer-deps
-```
-
-3. Start the development server:
-```bash
-npm run dev
-```
 
 ## Example JSON Schemas
 
