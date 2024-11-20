@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.editor-textarea {
+    min-height: 100% !important;
+    width: 100% !important;
+    outline: none !important;
+}
+
+@media (max-width: 768px) {
+    .editor-textarea {
+        font-size: 14px !important;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+@media (max-width: 768px) {
+    body {
+        overflow: hidden;
+    }
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+.jsoneditor,
+.jsoneditor-outer {
+    height: 100% !important;
+}
